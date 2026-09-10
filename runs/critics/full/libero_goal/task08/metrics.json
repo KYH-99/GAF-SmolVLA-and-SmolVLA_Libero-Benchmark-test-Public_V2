@@ -1,0 +1,26 @@
+{
+  "num_samples": 3536,
+  "num_episodes": 50,
+  "num_task_ids": 1,
+  "obs_source": "state",
+  "task_feature_source": "tokens",
+  "target_success_fraction": 0.3611425459384918,
+  "ranking_validation": {
+    "q_return_correlation": 0.6624752879142761,
+    "q_success_mean": -0.2569357752799988,
+    "q_fail_mean": -12.001042366027832,
+    "separation": 11.744106590747833,
+    "n_success": 820,
+    "n_fail": 2716
+  },
+  "final": {
+    "epoch": 29,
+    "train_loss": 0.2601551521908153,
+    "val_loss": 0.35605981945991516
+  },
+  "selected": {
+    "selected_epoch": 3,
+    "selected_metric": "val_loss",
+    "selected_val_loss": 0.3013377785682678
+  }
+}

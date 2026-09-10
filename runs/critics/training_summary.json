@@ -1,0 +1,13 @@
+{
+  "n_tasks": 40,
+  "full_critics": 40,
+  "success_critics": 40,
+  "hyperparams": {
+    "epochs": 30,
+    "lr": 0.001,
+    "action_horizon": 50,
+    "critic_arch": "multimodal",
+    "obs_source": "state",
+    "task_feature_source": "tokens"
+  }
+}

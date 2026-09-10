@@ -1,0 +1,50 @@
+{
+  "models": [
+    "Baseline",
+    "GAF-Full",
+    "GAF-Success",
+    "GAF-Fail(A)",
+    "GAF-Fail(B)"
+  ],
+  "suite": {
+    "libero_spatial": {
+      "Baseline": 58.2,
+      "GAF-Full": 59.6,
+      "GAF-Success": 57.2,
+      "GAF-Fail(A)": 57.8,
+      "GAF-Fail(B)": 59.0
+    },
+    "libero_object": {
+      "Baseline": 67.4,
+      "GAF-Full": 68.8,
+      "GAF-Success": 69.8,
+      "GAF-Fail(A)": 69.0,
+      "GAF-Fail(B)": 68.6
+    },
+    "libero_goal": {
+      "Baseline": 79.8,
+      "GAF-Full": 80.8,
+      "GAF-Success": 80.4,
+      "GAF-Fail(A)": 80.0,
+      "GAF-Fail(B)": 79.8
+    },
+    "libero_10": {
+      "Baseline": 52.2,
+      "GAF-Full": 47.6,
+      "GAF-Success": 49.0,
+      "GAF-Fail(A)": 48.2,
+      "GAF-Fail(B)": 49.0
+    }
+  },
+  "overall": {
+    "Baseline": 64.4,
+    "GAF-Full": 64.2,
+    "GAF-Success": 64.1,
+    "GAF-Fail(A)": 63.8,
+    "GAF-Fail(B)": 64.1
+  },
+  "notes": {
+    "GAF-Fail(A)": "failure_only filter, target=0 (naive, critic collapsed)",
+    "GAF-Fail(B)": "failure_only filter, target=1 (inverted), beta=-3.0 at inference"
+  }
+}

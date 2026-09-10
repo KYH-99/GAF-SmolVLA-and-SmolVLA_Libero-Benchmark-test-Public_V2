@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+*.so
+.eggs/
+
+# Large log files (원본은 원격 서버에 보관)
+logs/phase1_baseline.log
+logs/phase4_5_eval.log
+logs/rerun_baseline.log
+
+# PyTorch model checkpoints (용량 초과)
+checkpoints/
+*.pt
+*.pth
+*.safetensors
+
+# Collected rollout episode data (용량 초과)
+runs/collect/*/episodes/
+
+# third_party (별도 설치 필요)
+third_party/
+
+# HuggingFace cache
+.cache/
+
+# Environment
+.env
+*.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
